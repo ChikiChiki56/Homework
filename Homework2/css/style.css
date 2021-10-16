@@ -1,0 +1,127 @@
+html {
+    font-family: "Waiting for the Sunrise", cursive;
+    font-family: "Electrolize", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    float: right;
+    color: rgb(255, 255, 255);
+}
+
+.background {
+    background-image: url(https://images2.alphacoders.com/598/thumb-1920-598175.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    padding-top: 6px;
+    padding-left: 56px;
+    padding-right: 16px;
+    line-height: 25px;
+    font-family: "Chathura", sans-serif;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.work,
+.work-2,
+.education,
+.education-2,
+.hobbys,
+.hobbys-2 {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+}
+.work-2,
+.education-2,
+.hobbys-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex-flow: column;
+    float: left;
+    /*flex: 1 0 30%;*/
+
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 30%;
+
+    /* background-color:  #405d48; */
+    background: rgb(64, 93, 72);
+    background: linear-gradient(
+        45deg,
+        rgba(64, 93, 72, 1) 0%,
+        rgba(146, 140, 72, 0.9962359943977591) 29%,
+        rgba(79, 198, 112, 0.9766281512605042) 50%,
+        rgba(73, 153, 154, 1) 71%,
+        rgba(64, 93, 72, 1) 100%
+    );
+}
+
+.photo {
+}
+
+.photo img {
+    border: solid rgb(59, 59, 59) 1px;
+    display: block;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.contact1,
+.contact2,
+.contact3 {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Electrolize", sans-serif;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#line {
+    border: solid white 1px;
+    margin-top: 50px;
+}
+
+.tech-skills,
+.soft-skills,
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#fa {
+    color: white;
+    font-size: 50px;
+}
+
+.link {
+    color: white;
+}
